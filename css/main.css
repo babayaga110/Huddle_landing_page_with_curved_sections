@@ -374,3 +374,185 @@ p{
     color: white;
     font-size: 1.4rem;
 }
+
+@media (min-width:375px){
+    html{
+        font-size: 18px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .number-container, 
+    .grow-together .container, 
+    .flowing-conversation .container, 
+    .your-user .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .hero-section{
+        margin-top: 5em;
+    }
+    .subtitle{
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    /* ----------------------
+    Background Section
+----------------------- */
+
+    .background{
+        height: 625px;
+        background-image: url(../images/screen-mockups.svg);
+    }
+
+/* -------------------------
+        Number Section
+-------------------------- */
+    .number-section{
+        max-width: 1285px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15em;
+    }
+    .number-container{
+        margin: 0 auto;
+        max-width: 65%;
+        justify-content: space-between;
+    }
+    .communitie, 
+    .messages, 
+    .number-body{
+        margin:0;
+    }
+
+/* -------------------------
+        Grow Together
+-------------------------- */
+
+    .grow-together::before{
+        background-image: url(../images/bg-section-top-desktop-1.svg);
+        margin-top: -150px;
+        min-height: 150px;
+    }
+    .your-user::before{
+        background-image: url(../images/bg-section-top-desktop-2.svg);
+        margin-top: -150px;
+        min-height: 150px;
+    }
+    .grow-together::after{
+        background-image: url(../images/bg-section-bottom-desktop-1.svg);
+        margin-bottom: -150px;
+        min-height: 150px;
+    }.your-user::after{
+        background-image: url(../images/bg-section-bottom-desktop-2.svg);
+        margin-bottom: -150px;
+        min-height: 150px;
+    }
+    .container-image{
+        width: 40%;
+        order: 2;
+    }
+    .flowing-conversation .container-image{
+        order: 0;
+    }
+    .body{
+        text-align: left;
+        align-self: center;
+        padding: 2em 5em;
+    }
+    .flowing-conversation{
+        margin-top: 20em;
+        margin-bottom: 20em;
+    }
+
+/* ------------------------
+    Building Community
+------------------------- */
+    .build-community{
+        margin: 20em 0;
+        padding: 0;
+    }
+    .build-title{
+        font-size: 1.75rem;
+    }
+    .build-btn{
+        margin: 1.5em 0;
+        font-size: 1rem;
+        padding: 1em 3em;
+    }
+
+
+
+/* ------------------------
+        Footer Section
+------------------------- */
+    .footer-section{
+        padding: 2em;
+    }
+    .footer-section::before{
+        background-image: url(../images/bg-footer-top-desktop.svg);
+        margin-top: -100px;
+        min-height:100px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+    .footer-icon{
+        max-width: 250px;
+        max-height: 40px;
+    }
+/* ------Contact Section------ */
+
+    .contact-detial{
+        flex-basis: 40%;
+    }
+    .contact-detial p{
+        width: 60%;
+    }
+    .contact-flexbox{
+        display: flex;
+        align-items: baseline;
+        padding-top:0.5em;
+        margin: 0;
+    }
+    .contact-flexbox p{
+        margin: 0;
+        font-size: 0.8rem;
+    }
+/* ------Newsletter------ */
+
+    .newsletter{
+        order: 2;
+        flex-basis: 40%;
+    }
+    .news-title{
+        margin-top: 0;
+    }
+    .news-body{
+        width: 70%;
+    }
+    .input{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .input .input-field{
+        margin: 0;
+        padding: 0;
+        width: 65%;
+    }
+    .field-btn{
+        display: inline-block;
+        margin: 0;
+    }
+
+/* ------Social List------ */
+    .social-nav{
+        margin: 0 5em;
+    }
+}
