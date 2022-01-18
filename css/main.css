@@ -149,6 +149,15 @@ p{
     font-size: 0.8rem;
     color: silver;
 }
+/* -----------------------
+        Important
+------------------------- */
+.number-container, 
+.grow-together .container, 
+.flowing-conversation .container, 
+.your-user .container{
+    display: unset;
+}
 /* -------------------------
         Grow Together
 -------------------------- */
