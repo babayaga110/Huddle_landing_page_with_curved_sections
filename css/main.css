@@ -149,15 +149,7 @@ p{
     font-size: 0.8rem;
     color: silver;
 }
-/* -----------------------
-        Important
-------------------------- */
-.number-container, 
-.grow-together .container, 
-.flowing-conversation .container, 
-.your-user .container{
-    display: unset;
-}
+
 /* -------------------------
         Grow Together
 -------------------------- */
@@ -384,7 +376,7 @@ p{
     font-size: 1.4rem;
 }
 
-@media (min-width:375px){
+@media (min-width: 600px){
     html{
         font-size: 18px;
     }
@@ -564,4 +556,4 @@ p{
     .social-nav{
         margin: 0 5em;
     }
-}
+} 
