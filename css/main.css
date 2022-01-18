@@ -168,7 +168,7 @@ p{
     top: 0;
     left:0;
     margin: 0;
-    margin-top: -99px;
+    margin-top: -101px;
     min-height: 100px;
     min-width: 100vw;
 }
@@ -182,7 +182,7 @@ p{
     top: 0;
     left:0;
     margin: 0;
-    margin-top: -100px;
+    margin-top: -101px;
     min-height: 100px;
     min-width: 100vw;
 }
@@ -196,7 +196,7 @@ p{
     top: auto;
     left:auto;
     margin: 0;
-    margin-bottom: -99px;
+    margin-bottom: -101px;
     min-height: 100px;
     min-width: 100vw;
 }.your-user::after{
@@ -209,7 +209,7 @@ p{
     top: auto;
     left:auto;
     margin: 0;
-    margin-bottom: -99px;
+    margin-bottom: -101px;
     min-height: 100px;
     min-width: 100vw;
 }
